@@ -1,4 +1,6 @@
 #!/usr/bin/with-contenv bashio
+echo "Hello world!"
+
 
 # Get config values
 export OPENSPOOLMAN_BASE_URL=$(bashio::config 'OPENSPOOLMAN_BASE_URL')
@@ -9,4 +11,6 @@ export SPOOLMAN_BASE_URL=$(bashio::config 'SPOOLMAN_BASE_URL')
 export AUTO_SPEND=$(bashio::config 'AUTO_SPEND')
 
 # Start the OpenSpoolMan application
-python3 /app/wsgi.py 
+# python3 /app/wsgi.py 
+
+

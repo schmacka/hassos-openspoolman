@@ -1,3 +1,7 @@
+# WIP DO NOT USE
+
+
+
 # Home Assistant Add-on: OpenSpoolMan
 
 OpenSpoolMan integration for Bambulab printers with automatic filament recognition and usage tracking.
