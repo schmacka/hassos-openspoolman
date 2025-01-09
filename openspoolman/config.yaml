@@ -1,0 +1,30 @@
+name: "OpenSpoolMan"
+version: "1.0.0"
+slug: "openspoolman"
+description: "OpenSpoolMan integration for Bambulab printers"
+url: "https://github.com/yourusername/ha-openspoolman"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+ports:
+  8000/tcp: 8000
+ports_description:
+  8000/tcp: "OpenSpoolMan web interface"
+environment:
+  OPENSPOOLMAN_BASE_URL: ""
+  PRINTER_ID: ""
+  PRINTER_ACCESS_CODE: ""
+  PRINTER_IP: ""
+  SPOOLMAN_BASE_URL: ""
+  AUTO_SPEND: "false"
+schema:
+  OPENSPOOLMAN_BASE_URL: str
+  PRINTER_ID: str
+  PRINTER_ACCESS_CODE: str
+  PRINTER_IP: str
+  SPOOLMAN_BASE_URL: str
+  AUTO_SPEND: bool 
